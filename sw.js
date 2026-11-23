@@ -4,7 +4,7 @@
 - 네트워크가 없으면 마지막으로 저장해 둔 잠금 화면(index.html)을 그대로 연다
 - index.html 은 암호문만 담고 있어 캐시에 남아도 학생 정보는 드러나지 않는다
 */
-var CACHE = 'shuttle-2-shell-202611240347';
+var CACHE = 'shuttle-2-shell-202611240356';
 var SCOPE = new URL('./', self.location.href).href;
 var SHELL = new URL('index.html', SCOPE).href;
 var PRECACHE = [SCOPE, SHELL, new URL('icon.png', SCOPE).href];
